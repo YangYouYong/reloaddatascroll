@@ -15,6 +15,8 @@
 		C025D145206E152A002145AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C025D144206E152A002145AA /* main.m */; };
 		C025D14F206E152A002145AA /* TestScrollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C025D14E206E152A002145AA /* TestScrollTests.m */; };
 		C025D15A206E152A002145AA /* TestScrollUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C025D159206E152A002145AA /* TestScrollUITests.m */; };
+		C025D169206E1565002145AA /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = C025D168206E1565002145AA /* ViewController2.m */; };
+		C025D16C206E16BB002145AA /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C025D16B206E16BB002145AA /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		C025D155206E152A002145AA /* TestScrollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestScrollUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C025D159206E152A002145AA /* TestScrollUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestScrollUITests.m; sourceTree = "<group>"; };
 		C025D15B206E152A002145AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C025D167206E1565002145AA /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		C025D168206E1565002145AA /* ViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		C025D16A206E16BA002145AA /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		C025D16B206E16BB002145AA /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +107,14 @@
 		C025D134206E152A002145AA /* TestScroll */ = {
 			isa = PBXGroup;
 			children = (
+				C025D16A206E16BA002145AA /* TestViewController.h */,
+				C025D16B206E16BB002145AA /* TestViewController.m */,
 				C025D135206E152A002145AA /* AppDelegate.h */,
 				C025D136206E152A002145AA /* AppDelegate.m */,
 				C025D138206E152A002145AA /* ViewController.h */,
 				C025D139206E152A002145AA /* ViewController.m */,
+				C025D167206E1565002145AA /* ViewController2.h */,
+				C025D168206E1565002145AA /* ViewController2.m */,
 				C025D13B206E152A002145AA /* Main.storyboard */,
 				C025D13E206E152A002145AA /* Assets.xcassets */,
 				C025D140206E152A002145AA /* LaunchScreen.storyboard */,
@@ -266,8 +276,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C025D13A206E152A002145AA /* ViewController.m in Sources */,
+				C025D169206E1565002145AA /* ViewController2.m in Sources */,
 				C025D145206E152A002145AA /* main.m in Sources */,
 				C025D137206E152A002145AA /* AppDelegate.m in Sources */,
+				C025D16C206E16BB002145AA /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
